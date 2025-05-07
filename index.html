@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ignite Studio360</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #0d0d0d;
+      color: #e0e0e0;
+    }
+    header {
+      background-color: #1a1a1a;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    header img {
+      height: 60px;
+    }
+    nav a {
+      color: #ccc;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: gold;
+    }
+    .hero {
+      padding: 100px 20px;
+      text-align: center;
+      background: linear-gradient(to right, #111, #222);
+    }
+    .hero h1 {
+      font-size: 3rem;
+      color: silver;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      color: #bbb;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      color: gold;
+      border-bottom: 1px solid #444;
+      padding-bottom: 10px;
+    }
+    .about, .services, .how-it-works, .membership, .drivers {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      align-items: flex-start;
+      justify-content: center;
+    }
+    .about-text, .how-it-works-text, .membership-text, .drivers-text {
+      flex: 1;
+    }
+    .about-img img, .how-it-works-img img, .membership-img img, .drivers-img img {
+      width: 100%;
+      max-width: 500px;
+      border-radius: 8px;
+    }
+    .service-card {
+      background-color: #1a1a1a;
+      border-radius: 8px;
+      padding: 20px;
+      width: 300px;
+      text-align: center;
+      border: 1px solid #333;
+    }
+    .service-card h3 {
+      color: silver;
+      margin-bottom: 10px;
+    }
+    .service-card p {
+      color: #ccc;
+    }
+    footer {
+      text-align: center;
+      padding: 30px;
+      background-color: #1a1a1a;
+      color: #999;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Ignite Studio360 Logo">
+    <nav>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#how">How It Works</a>
+      <a href="#membership">Membership</a>
+      <a href="#drivers">Join as Driver</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h1>IGNITE STUDIO 360</h1>
+    <p>Design. Precision. Delivered.</p>
+  </div>
+
+  <section id="about">
+    <h2>About</h2>
+    <div class="about">
+      <div class="about-text">
+        <p>Ignite Studio360 is the Uber of construction + design. We connect clients with freelance design professionals who deliver high-end 3D designs, cutting lists, and legal documents on demand. Our mission is to ignite creativity, speed, and quality in the interior architecture space, globally.</p>
+      </div>
+      <div class="about-img">
+        <img src="about-img.jpg" alt="About Ignite Studio360">
+      </div>
+    </div>
+  </section>
+
+  <section id="services">
+    <h2>Services</h2>
+    <div class="services">
+      <div class="service-card">
+        <h3>3D Interior Design</h3>
+        <p>High-end kitchen, bedroom, and office renders tailored to your vision.</p>
+      </div>
+      <div class="service-card">
+        <h3>Cutting Lists</h3>
+        <p>Accurate board cutting instructions for seamless fabrication.</p>
+      </div>
+      <div class="service-card">
+        <h3>Contract Drafting</h3>
+        <p>Fast, professional drafting of invoices, quotes & contracts.</p>
+      </div>
+      <div class="service-card">
+        <h3>Design Alterations</h3>
+        <p>Get up to 3 free edits. R250 per revision afterward.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="how">
+    <h2>How It Works</h2>
+    <div class="how-it-works">
+      <div class="how-it-works-text">
+        <ol>
+          <li>Client submits a task request via the platform.</li>
+          <li>Available "Drivers" (our pros) pick it up and deliver.</li>
+          <li>You review, approve, or request revisions.</li>
+          <li>Payment is processed. We take 20%, freelancers get 80%.</li>
+        </ol>
+      </div>
+      <div class="how-it-works-img">
+        <img src="how-it-works.jpg" alt="Task Flow Graphic">
+      </div>
+    </div>
+  </section>
+
+  <section id="membership">
+    <h2>Membership & Pricing</h2>
+    <div class="membership">
+      <div class="membership-text">
+        <p><strong>Ignite Prime — R3000/month</strong></p>
+        <ul>
+          <li>4 Design Credits (valued at R1600 each)</li>
+          <li>Priority Support + Revisions</li>
+          <li>20% Discount on all additional tasks</li>
+          <li>Premium client dashboard access</li>
+        </ul>
+      </div>
+      <div class="membership-img">
+        <img src="membership.jpg" alt="Membership Benefits">
+      </div>
+    </div>
+  </section>
+
+  <section id="drivers">
+    <h2>Join as a Driver</h2>
+    <div class="drivers">
+      <div class="drivers-text">
+        <p>Are you a 3D designer, cutting list expert, or contract drafter? Join our global team and earn on your terms. We handle the marketing, platform, and clients—you just deliver.</p>
+        <p><strong>Perks:</strong></p>
+        <ul>
+          <li>Keep 80% of what you earn</li>
+          <li>Work from anywhere</li>
+          <li>Access high-paying global clients</li>
+          <li>Use AI tools to speed up your workflow</li>
+        </ul>
+      </div>
+      <div class="drivers-img">
+        <img src="freelancer.jpg" alt="Freelancer Recruitment">
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: info@ignitestudio360.com<br>
+    Phone: +27 76 235 8897<br>
+    Location: Durban, South Africa</p>
+  </section>
+
+  <footer>
+    &copy; 2025 Ignite Studio360. All rights reserved.
+  </footer>
+</body>
+</html>
